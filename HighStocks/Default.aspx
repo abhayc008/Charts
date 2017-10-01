@@ -38,5 +38,36 @@
             </p>
         </div>
     </div>
+    <script type="text/javascript">
 
+        $.ajax({
+                type: "POST",
+                url: "Default.aspx/GetData",
+                data: '{}',
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (response) {
+                    //alert(response.d);
+                    
+                    var ab = JSON.parse(response.d);
+                    alert(ab);
+                    ab = $.each(ab, function (index, value) {
+                        delete value.Col1;
+                        return value;
+                    });
+
+                    alert(ab);
+
+
+                },
+                failure: function (response) {
+                    alert(response.d);
+                },
+                error: function (response) {
+                    alert(response.d);
+                }
+            });
+ 
+
+    </script>
 </asp:Content>
