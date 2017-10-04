@@ -100,3 +100,9 @@ E:\Projects\Charts\HighStocks\bin\Microsoft.Owin.Security.OAuth.xml
 E:\Projects\Charts\HighStocks\obj\Debug\HighStocks.csprojResolveAssemblyReference.cache
 E:\Projects\Charts\HighStocks\obj\Debug\HighStocks.dll
 E:\Projects\Charts\HighStocks\obj\Debug\HighStocks.pdb
+E:\Projects\Charts\HighStocks\bin\System.Net.Http.Formatting.dll
+E:\Projects\Charts\HighStocks\bin\System.Web.Http.dll
+E:\Projects\Charts\HighStocks\bin\System.Web.Http.WebHost.dll
+E:\Projects\Charts\HighStocks\bin\System.Net.Http.Formatting.xml
+E:\Projects\Charts\HighStocks\bin\System.Web.Http.xml
+E:\Projects\Charts\HighStocks\bin\System.Web.Http.WebHost.xml
