@@ -117,3 +117,10 @@ E:\Projects\Charts\WebAPI\bin\System.Web.Http.Owin.xml
 E:\Projects\Charts\WebAPI\obj\Debug\WebAPI.csprojResolveAssemblyReference.cache
 E:\Projects\Charts\WebAPI\obj\Debug\WebAPI.dll
 E:\Projects\Charts\WebAPI\obj\Debug\WebAPI.pdb
+E:\Projects\Charts\WebAPI\bin\System.Web.Helpers.dll
+E:\Projects\Charts\WebAPI\bin\System.Web.Http.Owin.dll
+E:\Projects\Charts\WebAPI\bin\System.Web.Mvc.dll
+E:\Projects\Charts\WebAPI\bin\System.Web.Razor.dll
+E:\Projects\Charts\WebAPI\bin\System.Web.WebPages.Deployment.dll
+E:\Projects\Charts\WebAPI\bin\System.Web.WebPages.dll
+E:\Projects\Charts\WebAPI\bin\System.Web.WebPages.Razor.dll

@@ -106,3 +106,4 @@ E:\Projects\Charts\HighStocks\bin\System.Web.Http.WebHost.dll
 E:\Projects\Charts\HighStocks\bin\System.Net.Http.Formatting.xml
 E:\Projects\Charts\HighStocks\bin\System.Web.Http.xml
 E:\Projects\Charts\HighStocks\bin\System.Web.Http.WebHost.xml
+E:\Projects\Charts\HighStocks\bin\AjaxControlToolkit.dll

@@ -78,7 +78,7 @@ namespace HighStocks
 
             }
         }
-
+        
         private static DataTable testFlipDataTable()
         {
             DataTable dt = new DataTable();
