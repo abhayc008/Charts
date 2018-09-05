@@ -9,13 +9,17 @@ import { MynvaComponent } from './mynva/mynva.component';
 import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
-{ path: '', redirectTo: '/dashboard', pathMatch: 'full' },
-{ path: 'dashboard', component: DashboardComponent },
-{ path: 'detail/:id', component: HeroDetailComponent },
-{ path: 'heroes', component: HeroesComponent },
+{ path: '', redirectTo: 'login', pathMatch: 'full' },
 { path:'login', component:LoginComponent},
-{ path:'MyDashboard', component:MyDashboardComponent},
-{ path:'nav' , component: MynvaComponent}
+{ path:'nav' , component: MynvaComponent
+	,children:[
+		{ path: '', redirectTo: 'dashboard', pathMatch: 'full' },
+		{ path: 'dashboard', component: DashboardComponent },
+		{ path:'MyDashboard', component:MyDashboardComponent},
+		{ path: 'detail/:id', component: HeroDetailComponent },
+		{ path: 'heroes', component: HeroesComponent }
+		]
+}
 ];
 
 @NgModule({

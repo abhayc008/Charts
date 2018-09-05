@@ -48,7 +48,7 @@ export class LoginComponent implements OnInit {
             .subscribe(
                 data => {
                    // this.router.navigate([this.returnUrl]);
-                   this.router.navigate(['/dashboard']);
+                   this.router.navigate(['/nav']);
                 },
                 error => {
                     this.error = error;

@@ -13,7 +13,6 @@ export class AuthenticationService {
 
     return this.http.post<any>('/users/authenticate', { username, password })
         .pipe(map(user => {
-          alert('abtest2');
             // login successful if there's a jwt token in the response
             if (user && user.token) {
                 // store user details and jwt token in local storage to keep user logged in between page refreshes
